@@ -1,0 +1,11 @@
+.aryan{
+    background-color: yellow;
+    border: 2px solid red;
+    font-family: cursive;
+    border-radius: 5px;
+    font-size: 50px;
+    /* border-bottom: 5px dashed blue; */
+    padding: 10px;
+    margin: 50px;
+    color: blue1;
+}
