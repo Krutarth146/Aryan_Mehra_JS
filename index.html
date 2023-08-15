@@ -3,22 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dom Manipulation</title>
-    <link rel="stylesheet" href="dom1.css">
+    <title>Event Handling</title>
+    <link rel="stylesheet" href="dom1.css" type="text/css">
 </head>
 <body>
     <div class="container" id="container">
-        <div class="box" id="box-1">box-1</div>
-        <div class="box" id="box-2">box-2</div>
+        <div class="box" id="box-1" onclick="fun1()">box-1</div>
+        <div class="box" id="box-2" onmouseover="fun2()">box-2</div>
         <div class="box" id="box-3">box-3</div>
         <div class="box" id="box-4">box-4</div>
     </div>
-    
-    
 
-    <script src="dom_manipulation1.js"></script>
+    <form action="#">
+        <!-- <input type="text" id="name1" onkeypress="keyPress11()" onkeyup="keyUp11()" onkeydown="keyDown11()"> -->
+        <input type="text" id="name1">
+    </form>
+
+    <script src="event_handling1.js"></script>
 <!-- 
     <label for="patel">First Name: </label>
     <input type="text" name="fname" placeholder="Enter Your Full Name" id="patel"> -->
+<!-- 
+    Map Filters
+    import/Export module
+    Error Handling -->
+
 </body>
 </html>
